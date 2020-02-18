@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BrokerQuotesModule.framework' 
   s.public_header_files = '*.framework/**/*.h'
   s.source_files = '*.framework/**/*.h' 
+  s.dependency 'BrokerUIKit', '~> 2.0.10'
   s.dependency 'BCSUniverse', '~> 1.0.8' 
 end
